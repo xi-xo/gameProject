@@ -3,8 +3,15 @@
     padding: 0;
     box-sizing: border-box;
     background-color: rgb(229, 228, 232);
+    border: 3px solid red
 }
 
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
 h1 {
     color: rgb(2, 2, 31);
 }
